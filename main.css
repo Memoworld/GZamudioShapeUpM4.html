@@ -1,25 +1,35 @@
+/* default font */
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* make all links bold */
 a {
     font-weight: bold;
 }
 
+/* h1 styling */
 h1 {
     font-size: 36px;
 }
 
+/* header headings */
 header h1 {
     color: steelblue;
     font-style: italic;
 }
 
+header h2 {
+    font-size: 20px;
+}
+
+/* float header image */
 header img {
     float: left;
     margin-right: 15px;
 }
 
+/* section links */
 section a:link,
 section a:visited {
     color: maroon;
@@ -30,14 +40,17 @@ section a:focus {
     color: steelblue;
 }
 
+/* aside header */
 aside h2 {
     color: maroon;
 }
 
+/* aside list spacing */
 aside ul {
     line-height: 1.5;
 }
 
+/* aside links */
 aside a:link,
 aside a:visited {
     color: steelblue;
@@ -48,6 +61,7 @@ aside a:focus {
     color: maroon;
 }
 
+/* footer */
 footer {
     font-size: 80%;
     text-align: center;
